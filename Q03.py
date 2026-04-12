@@ -11,3 +11,8 @@
 #   5 x 10 = 50
 
 # --- YOUR CODE HERE ---
+X = int(input("Enter a number: "))
+i = 1
+for i in range(11):
+    pro = X*i
+    print(f"{X} x {i} = {pro}")
