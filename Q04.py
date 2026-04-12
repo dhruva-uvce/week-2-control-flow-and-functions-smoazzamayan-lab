@@ -12,3 +12,9 @@
 #   *****
 
 # --- YOUR CODE HERE ---
+r = int(input("Enter number of rows: "))
+i = 1
+for i in range(r+1):
+    row = '*'*i
+    print(f"{row}")
+    i = i+1

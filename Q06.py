@@ -12,3 +12,13 @@
 # Sample Output 2:  0! = 1
 
 # --- YOUR CODE HERE ---
+n = int(input("Enter a number: "))
+i = 0
+fact = 1
+if n == 0:
+    print("0! = 1")
+else:
+    for i in range(n):
+        fact*=(i+1)
+        i=i+1
+    print(f"{n}! = {fact}")

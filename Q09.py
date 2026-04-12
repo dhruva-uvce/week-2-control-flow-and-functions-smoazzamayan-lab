@@ -17,15 +17,27 @@
 
 def greet(name, greeting="Hello"):
     # --- YOUR CODE HERE ---
+    print(f"{greeting}, {name}")
     pass
 
 
 def power(base, exp=2):
     # --- YOUR CODE HERE ---
+    i=0
+    ans = 1
+    for i in range(exp):
+        ans = ans * base
+        i = i+1
+    print(f"{ans}")
     pass
 
 
 if __name__ == "__main__":
     # Call the functions and print results
     # --- YOUR CODE HERE ---
+    greet("Alice")
+    greet("Bob", "Hi")
+    power(5)
+    power(2, 10)
     pass
+
