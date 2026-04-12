@@ -14,3 +14,17 @@
 # Sample Output:  Grade: B
 
 # --- YOUR CODE HERE ---
+marks = int(input("Enter your score: "))
+if marks in range(101):
+    if marks >= 90:
+        print("Garde: A")
+    elif marks >= 80:
+        print("Grade: B")
+    elif marks >= 70:
+        print("Grade: C")
+    elif marks >= 60:
+        print("Grade: D")
+    elif marks < 60:
+        print("Grade: F")
+    else:
+        print("Invalid score")
